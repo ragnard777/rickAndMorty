@@ -1,0 +1,17 @@
+<div class="card w-100 m-2" [ngClass]="{ pointer: clickable }">
+  <div class="card-body">
+    <h5 class="card-title">{{ nombreCharacter }}</h5>
+    <p class="card-text"></p>
+    <img [src]="imagenCharacter" [alt]="nombreCharacter" />
+    <h5 class="m-2">Estado :</h5>
+    <p
+      class="card-text"
+      [ngClass]="{
+        alive: estadoCharacter == 'Alive',
+        dead: estadoCharacter == 'Dead'
+      }"
+    >
+      {{ estadoCharacter }}
+    </p>
+  </div>
+</div>

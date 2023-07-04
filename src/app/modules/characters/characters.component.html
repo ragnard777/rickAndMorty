@@ -1,0 +1,10 @@
+<div class="row">
+  <div *ngFor="let character of characters" class="col-4">
+    <app-bs-card
+      [nombreCharacter]="character.name"
+      [imagenCharacter]="character.image"
+      [estadoCharacter]="character.status"
+      (click)="addNewItem(character.name)"
+    ></app-bs-card>
+  </div>
+</div>
