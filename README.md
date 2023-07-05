@@ -1,5 +1,11 @@
 # AppRickAndMorty
 
+#Prod
+
+![image](https://github.com/ragnard777/rickAndMorty/assets/66535149/0a87b1be-43d1-4f43-84de-c10d2e08dad9)
+
+ng build --configuration production
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Development server
